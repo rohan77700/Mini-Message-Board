@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Message from <%= message.user %></h1>
+    <div class="message-card">
+        <p><%= message.text %></p>
+        <p><em>Added on: <%= message.added.toLocaleString() %></em></p>
+    </div>
+    <a href="/">Back to all messages</a>
+</body>
+</html>
