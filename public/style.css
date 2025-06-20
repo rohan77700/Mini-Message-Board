@@ -1,0 +1,107 @@
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Heading & link styling */
+h1 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Index page message list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Form page */
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    margin-top: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #0077cc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: block;
+    margin: auto;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+/* Message detail page */
+.message-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.message-card p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.message-card em {
+    color: #666;
+    font-size: 0.9rem;
+}
